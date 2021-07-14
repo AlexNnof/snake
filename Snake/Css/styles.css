@@ -1,0 +1,55 @@
+body, html{
+    margin: 0;
+    padding: 0px;
+}
+
+#top{
+    display: flex;
+    padding: 0;
+    justify-content: center;
+}
+
+#top h2, #start{
+    padding: 0;
+    margin: 0 5px;
+}
+
+#top h2{
+    margin: 0 5% ;
+}
+
+.grid{
+    margin: auto;
+    width: 1400px;
+    height: 730px;
+    display: grid;
+    border: solid black 3px;
+    grid-template-columns:repeat(140, 10px)  ;
+}
+
+.grid div{
+    width: 1fr;
+    height: 1fr;
+    background-color: blue;
+}
+
+.grid .div0{
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.grid .ghost{
+    background-color: silver;
+}
+
+.grid .trail{
+    background-color: white;
+}
+
+.grid .snake{
+    background-color: green;
+}
+
+.grid .fish{
+    background-color: gray;
+}
