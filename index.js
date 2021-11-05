@@ -19,6 +19,7 @@ let heighscoreNr = window.localStorage
 const div = "div"
 
 
+
 function crateGrid(){
     
     //14400 divs
