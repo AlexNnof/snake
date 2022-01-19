@@ -7,6 +7,7 @@ body, html{
     display: flex;
     padding: 0;
     justify-content: center;
+    background-color: white;
 }
 
 #top h2, #start{
@@ -23,7 +24,7 @@ body, html{
     width: 1400px;
     height: 730px;
     display: grid;
-    border: solid black 3px;
+    border: solid white 3px;
     grid-template-columns:repeat(140, 10px)  ;
 }
 
